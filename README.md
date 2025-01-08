@@ -65,9 +65,6 @@ Ensure the Lambda function has the necessary permissions to access DynamoDB.
 CORS Configuration
 CORS was disabled in the final deployment due to issues with multiple origins. However, it's recommended to handle CORS securely in production environments.
 
-Usage
-Visit the [live website](https://resume.awsfreeproject.online/) to view the resume and see the interactive view counter in action.
-
 Troubleshooting
 CORS Errors: Ensure that the Access-Control-Allow-Origin header in the Lambda function is correctly set to the domain of your website.
 View Counter Not Updating: Check the CloudWatch logs for the Lambda function to troubleshoot any issues with DynamoDB access or updates.
